@@ -1,2 +1,2 @@
-# ccpm-chat-bot-like
-ccpm-chat-bot-like
+# Standalone Chat Bot
+Standalone Chat Bot
