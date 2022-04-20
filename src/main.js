@@ -1,12 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App.svelte'
 
-import ChatApp from './ChatApp.svelte';
+const app = new App({
+  target: document.body
+})
 
-const chatApp = new ChatApp({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
-});
-
-export default chatApp;
+export default app

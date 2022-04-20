@@ -33,8 +33,8 @@ export default {
 	output: {
 		sourcemap: true,
 		format: 'iife',
-		name: 'chatApp',
-		file: 'public/build/chatApp.js'
+		name: 'App',
+		file: 'public/build/bundle.js'
 	},
 	plugins: [
 		svelte({
@@ -45,7 +45,7 @@ export default {
 		}),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
-		css({ output: 'chatApp.css' }),
+		css({ output: 'bundle.css' }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
