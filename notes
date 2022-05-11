@@ -1,0 +1,75 @@
+CCPM CHAT BOT LIKE
+1. Create a standalone a ccpm chat bot using svelte
+2. It will serve in ccpmchatbot.legalmatch.com
+3. Display to a page
+	 - Embed through iframe. 
+	 
+=========================================================
+Set up the dev environment.
+ - debug - not yet install
+ - dotenv
+	- env
+ - Dockerize
+	- Docker log driver
+		- loki
+		- journalctl
+
+
+Create a standalone a ccpm chat bot using svelte
+ - HEADER
+ 	- CHATBOT AGENT IMAGE
+ 	- CHATBOT AGENT NAME
+ 	- CHATBOT AGENT STATUS
+	- CHATBOT EXIT
+ - MESSAGE BODY
+ - MESSAGE BOTTOM
+ 	- CHATBOT FORM
+ 		- CHATBOT TEXTAREA
+ 		- CHATBOT SEND BOTTON
+
+Function
+ - displayGreeting
+ - getLocation (geo.php)
+ - displayLocation (geo.php)
+ - setReceivedMessage
+	- agentProfile
+	- receivedMessage
+ - displayReceivedMessage
+ 	- agentProfile
+	- receivedMessage
+ - getSentMessage
+ 	- 
+ - displaySentMessage
+ 
+
+DUMMY LOGIC
+ 1. There a set of question for ord ering a pizza
+	1. What size of the pizza dough
+		7, 9, 11 inches 
+	2. What is the sauce
+		white, red sauce
+	3. What is the type of cheese
+	4. What is the type of sausage
+	5. What is the type of vegetables and fruits
+		- pineapple
+		- olive
+		- tomato
+		- onion
+	6. What is the type of herbs
+	7. What is the type of species
+	8. What is the type of oil
+	9. What is your name
+	10. What is your contact number
+	11. Pick up or deliver
+	12. What is the mode of payment
+
+
+TODO:
+Convert it to svelte with sapper
+1. add babel, eslint, prettier - done
+2. setup env - done
+
+3. Create the UI
+4. Create protected endpoints for 
+3. Make the store works
+4. Display the Zipcode and Category

@@ -1,0 +1,36 @@
+.message-header {
+    align-items: center; /* Vertical */
+    background-color: #0b287e;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+}
+
+.message-header__profile {
+    padding-right: 15px;
+    position: relative;
+}
+
+.message-header__profile-image {
+    @include prefix((
+        border: 2px solid #fff,
+        border-radius: 50%
+      ), webkit moz o ms);
+    height: 30px;
+    width: 30px;
+}
+
+.message-header__profile-status {
+    @include prefix((
+        border: 2px solid #fff,
+        border-radius: 50%
+    ), webkit moz o ms);
+
+    background-color: #62ee53;
+    bottom: 0;
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: 14px;
+    width: 10px;
+}
