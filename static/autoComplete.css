@@ -1,0 +1,22 @@
+.autoComplete_highlighted {
+    font-weight: bold;
+}
+
+.autoComplete_list {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    display: none;
+    list-style: none;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.autoComplete_result:hover {
+    background: #ddebf8;
+    cursor: pointer;
+}
